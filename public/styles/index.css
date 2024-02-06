@@ -23,6 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    position: fixed;
+    z-index: 100;
 }
 
 .an {
@@ -65,4 +67,15 @@ nav {
     background: rgb(0,255,241);
     background: linear-gradient(0deg, rgba(0,255,241,1) 0%, rgba(34,195,111,1) 100%);
     transform: scale(1.01);
+}
+.inicio{
+    margin-left: 300px;
+    
+}
+main{
+    position: absolute;
+    margin-top: 200px;
+}
+.matias{
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
 }
