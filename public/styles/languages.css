@@ -6,10 +6,11 @@
 }
 
 body {
-    background-image: url(img/languagesbg.jpg);
+
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     background-attachment: fixed;
+    background-image: url(img/indexbg.jpg);
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    z-index: 100;
 }
 
 .an {
@@ -65,4 +67,46 @@ nav {
     background: rgb(0,255,241);
     background: linear-gradient(0deg, rgba(0,255,241,1) 0%, rgba(34,195,111,1) 100%);
     transform: scale(1.01);
+}
+.inicio{
+    margin-left: 300px;
+    
+}
+main{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.secmain{
+    justify-content: space-between;
+}
+.divnosotros{
+border-radius: 10px;
+}
+.info{
+    background-color: rgb(43, 43, 43);
+    border: solid rgb(22, 22, 22) 4px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+.info:hover{
+    transform: scale(50px);
+}
+.imgnosotros{
+    max-width: 300px; max-height: 300px;
+}
+.h1main{
+margin-top: 210px;
+    font-size: xx-large;
+    margin-left: 90px;
+}
+hr{
+    border: none;
+    height: 0px;
+    background-color: #ffffff00;
+}
+footer{
+    
 }
