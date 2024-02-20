@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     background-size: cover;
+    text-decoration: none;
 }
 
 body {
@@ -39,7 +40,7 @@ nav {
     transition: 0.5s ease-in-out;
 
     margin-top: 54px;
-     margin-right: 20px;
+    margin-right: 20px;
 }
 
 .an:hover {
@@ -50,22 +51,17 @@ nav {
     transform: scale(1.01);
 }
 
-.inicio{
+.inicio {
     margin-left: 300px;
-    
+
 }
-main{
+
+main {
     display: flex;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.secmain{
-    justify-content: space-between;
-}
-.divnosotros{
-border-radius: 10px;
-}
-.info{
+
+.info {
     background-color: rgb(43, 43, 43);
     border: solid rgb(22, 22, 22) 4px;
     border-radius: 15px;
@@ -73,22 +69,29 @@ border-radius: 10px;
     margin-left: 90px;
     margin-bottom: 50px;
 }
-.info:hover{
+
+.info:hover {
     transform: scale(50px);
 }
-.imgnosotros{
-    max-width: 300px; max-height: 300px;
+
+.imgnosotros {
+    max-width: 300px;
+    max-height: 300px;
 }
-.h1main{
-margin-top: 210px;
-    font-size: xx-large;
+
+.h1main {
+    margin-top: 210px;
+    font-size: 40px;
     margin-left: 90px;
+    margin-bottom: 10px;
 }
-hr{
+
+hr {
     border: none;
     height: 0px;
     background-color: #ffffff00;
 }
+
 footer {
     background-color: rgb(39, 39, 39);
     color: white;
@@ -106,4 +109,70 @@ footer div {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 32px;
     display: block;
+}
+
+p {
+    background-color: rgb(121, 121, 121);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.h1ftr {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    display: block;
+    margin-right: 170px;
+}
+
+ul a {
+    color: rgb(134, 134, 134);
+}
+
+ul a:hover {
+    color: rgb(193, 235, 255);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.linksftr {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: rgb(134, 134, 134);
+    margin-bottom: 5px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.pages a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(134, 134, 134);
+}
+
+.pages a:hover {
+    color: rgb(193, 235, 255);
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 310px;
 }
